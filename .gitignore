@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.env*.local
+*.pem
+
+# Backend specific
+backend/dist/
+backend/node_modules/
+backend/.env
+backend/logs/
+backend/*.log
+
+# Frontend specific
+frontend/.next/
+frontend/dist/
+frontend/node_modules/
+frontend/.env.local
+frontend/.turbo/
+
+# ML models
+ml/models/*.h5
+ml/models/*.pb
+ml/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
